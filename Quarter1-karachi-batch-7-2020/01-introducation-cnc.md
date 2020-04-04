@@ -51,7 +51,33 @@ A Cloud can be a wide area network (WAN) linke the public Internet or a private,
 
 -------------------------------------------------------------------------------------------------
 
-- What ic Cloud Native?
+## Cloud Native Commputing Foundation (CNCF) 
+```
+which is an open source software fundation dedicated to making cloude native computing universal and sustaninable describe cloud native as,
+```
+   *"Cloud native technologies empower organizations to build and run scalable applications in modern, dynamic enviroments such as public, private and hybird clouds"*
+```
+other defination of Cloud Native Computing could be
+```
+```
+Let's get into detail and simpify to understand what we just heard  
+```
+   *"An Approach that builds software applications as microservices and runs them on a containerized and dynamically orchestrated platform to utilze the advantages of the cloud computing model"*
+```
+Cloud Native is about How applications are created and deployed, NOT WHERE  
+```
+   #### Cloud-native app development typically 
+   - Devops
+   - Agile mothodology
+   - Microservice
+   - Cloud computing platforms
+   - Containerize application
+   - Orchestration system
+   - Continuous delivery
+
+   *"  In short, every new and modern method of application deployment
+"*   
+
 - DevOps
 - Agile 
 - Microservice
