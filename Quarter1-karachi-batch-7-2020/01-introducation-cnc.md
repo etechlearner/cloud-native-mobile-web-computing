@@ -1,6 +1,11 @@
 # Introduction to Cloud Native Computing
 
+
 ## Monolithic Computing
+
+<p align="center">
+  <img  src="https://raw.githubusercontent.com/etechlearner/cloud-native-mobile-web-computing/master/images/monolithic-architecture.png">
+</p>
 
     Traditional way of computing called monolithic Architecture
     when we start Cloud native computing, let's look at what was heppening as a traditainal way of computing.
@@ -15,6 +20,10 @@
   - application change become extremely expensive in both time and cost
 -------------------------------------------------------------------------------------------------
 ## Microservices - also known as the microservice architecture
+
+<p align="center">
+  <img  src="https://raw.githubusercontent.com/etechlearner/cloud-native-mobile-web-computing/master/images/microservices-architecture.png">
+</p>
     In this architectural style that structures an application as a collection of services that are. Highly maintainable and testable. Loosely coupled. Independently deployable. Organized around business capabilities.
    
    ### Microservices do have distinct advantages:
@@ -79,7 +88,10 @@ Cloud Native is about How applications are created and deployed, NOT WHERE
 "*
 
 -------------------------------------------------------------------------------------------------
-![Devops](https://raw.githubusercontent.com/etechlearner/cloud-native-mobile-web-computing/master/images/devops-whatisdevops.png)
+
+<p align="center">
+  <img  src="https://raw.githubusercontent.com/etechlearner/cloud-native-mobile-web-computing/master/images/devops-whatisdevops.png">
+</p>
 
 ## DevOps
     DevOps is an IT mindset that encourages communication, collaboration, integration and automation among software developers and IT operations in order to improve the speed and quality of delivering software.
