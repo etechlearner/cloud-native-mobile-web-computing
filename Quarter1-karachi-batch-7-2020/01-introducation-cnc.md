@@ -76,9 +76,33 @@ Cloud Native is about How applications are created and deployed, NOT WHERE
    - Continuous delivery
 
    *"  In short, every new and modern method of application deployment
-"*   
+"*
 
-- DevOps
+-------------------------------------------------------------------------------------------------
+![Devops](https://raw.githubusercontent.com/etechlearner/cloud-native-mobile-web-computing/master/images/devops-whatisdevops.png)
+
+## DevOps
+    DevOps is an IT mindset that encourages communication, collaboration, integration and automation among software developers and IT operations in order to improve the speed and quality of delivering software.
+   #### DevOps Lifecycle:
+   #### Developer Task
+   - **PLAN** Initially plan yourself regarding the type of application you need to develop. Make the rough picture regarding the development process
+
+   - **CODE** the application as per the client requirement.  with the plan, you have made in the initial step.
+
+   - **BUILD** the application by performing the integration of various codes you have done in the previous step. 
+
+   - **TEST** This is the heart of the application. Test the application that you have built so far. And the rebuilt the application if necessary.
+   
+   #### Oprations Task
+   - **RELEASES** If you succeed in the Test phase, then its time to release the application into Live.
+
+   - **DEPLOY** the code into a cloud environment for further usage. It is performed in such a manner any changes made should not affect the functioning of high traffic website.
+
+   - **OPERATE** Perform the operation on the code if any have.
+
+   - **MONITOR** Monitor the performance of the application as per the client requirement. Keep a note on the performance of the application. Make modifications if any to satisfy the clients. And if does not reach up to the mark make changes in that particular area to satisfy the client.
+   -------------------------------------------------------------------------------------------
+
 - Agile 
 - Microservice
 - Cloud Computing Platforms
