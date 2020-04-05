@@ -144,8 +144,57 @@ Cloud Native is about How applications are created and deployed, NOT WHERE
    - The stakeholders can provide feedback to the development team to improve the quality of the product
    - Agile development does save lot of resource which could have spent on something not needed anymore 
 
+   -------------------------------------------------------------------------------------------
 
-- Microservice
+## Microservices
+
+<p align="center">
+  <img  src="https://raw.githubusercontent.com/etechlearner/cloud-native-mobile-web-computing/master/images/microservices.png">
+</p>
+    Cloud native provide standerd architecture of applications are built as system of miroservices.  
+
+    Microservices - also known as the microservice architecture - is an architectural style that structures an application as a collection of services that are
+   - Highly maintainable and testable
+   - Loosely coupled
+   - Independently deployable
+   - Organized aroud business capabilities
+   - Owned by a small team
+
+    The microservice architecture enables the rapid, frequent and reliable delivery of large, complex applications. It also enables an organization to evolve its technology stack. 
+   #### Challenges useing microservices:
+   - there is a saying: there's no such thing as a free lunch
+   - Microservices remove some complexity form the service themseleves and provide btter scalibility, but you're now building a distributed system
+   - That adds a lot more complexity on the system level
+   - To make sure that dependent services find each other and communicate efficienly its a challenging task when number of microservices are many 
+
+   -------------------------------------------------------------------------------------------
+
+
+## Twelve Factors App
+<p align="center">
+  <img  src="https://raw.githubusercontent.com/etechlearner/cloud-native-mobile-web-computing/master/images/The-12factore.png">
+</p>
+    In the modern era, software is commonly delivered as a service: called web apps, or software-as-a-service. The twelve-factor app is a methodology for building software-as-a-service apps that:
+
+    The twelve-factor methodology can be applied to apps written in any programming language, and which use any combination of backing services (database, queue, memory cache, etc).
+   #### Factors:
+   - I. **Codebase** One codebase tracked in revision control, many deploys
+   - II. **Dependencies** Explicitly declare and isolate dependencies
+   - III. **Config** Store config in the environment
+   - IV. **Backing services** Treat backing services as attached resources
+   - V. **Build, release, run** Strictly separate build and run stages
+   - VI. **Processes** Execute the app as one or more stateless processes
+   - VII. **Port binding** Export services via port binding
+   - VIII. **Concurrency** Scale out via the process model
+   - IX. **Disposability** Maximize robustness with fast startup and graceful shutdown
+   - X. **Dev/prod parity** Keep development, staging, and production as similar as possible
+   - XI. **Logs** Treat logs as event streams
+   - XII. **Admin processes** Run admin/management tasks as one-off processes
+
+
+   -------------------------------------------------------------------------------------------
+
+
 - Cloud Computing Platforms
 - Containers
 - Orchestration
