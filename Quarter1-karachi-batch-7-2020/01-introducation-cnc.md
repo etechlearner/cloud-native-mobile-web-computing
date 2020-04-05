@@ -39,6 +39,10 @@
 -------------------------------------------------------------------------------------------------
 ## What is Cloud? 
 
+<p align="center">
+  <img  src="https://raw.githubusercontent.com/etechlearner/cloud-native-mobile-web-computing/master/images/cloud-c.jpg">
+</p>
+
 ```
 The word "cloud" refers to servers that are accessed over the Internet, and the software and databases that run on those servers. Cloud servers are located in data centers all over the world
 ```
@@ -60,7 +64,14 @@ A Cloud can be a wide area network (WAN) linke the public Internet or a private,
 
 -------------------------------------------------------------------------------------------------
 
-## Cloud Native Commputing Foundation (CNCF) 
+## Cloud Native Commputing Foundation (CNCF)
+
+
+<p align="center">
+  <img  src="https://raw.githubusercontent.com/etechlearner/cloud-native-mobile-web-computing/master/images/cloud-native-computing.jpg">
+</p>
+
+
 ```
 which is an open source software fundation dedicated to making cloude native computing universal and sustaninable describe cloud native as,
 ```
@@ -115,7 +126,25 @@ Cloud Native is about How applications are created and deployed, NOT WHERE
    - **MONITOR** Monitor the performance of the application as per the client requirement. Keep a note on the performance of the application. Make modifications if any to satisfy the clients. And if does not reach up to the mark make changes in that particular area to satisfy the client.
    -------------------------------------------------------------------------------------------
 
-- Agile 
+## Agile 
+
+
+<p align="center">
+  <img  src="https://raw.githubusercontent.com/etechlearner/cloud-native-mobile-web-computing/master/images/Benefits-of-Agile.png">
+</p>
+
+    “Agile is a term used to describe approaches to software development emphasizing incremental delivery, team collaboration, continual planning, and continual learning. The term “Agile” was coined in 2001 in the Agile Manifesto.” Some people will say that it is just a mindset or way of thinking.
+
+   #### Agile principles:
+   - Agile methodology is described as an "iterative" and "incremental" approch
+   - Agile developer visualize the software as a combination of complex parts that interacts with each other rather than a large block of structure
+   - Actually, in waterfall method, development team will get only single chance to get each phase (like design, development, testing etc) of project 
+   - Whereas in an agile methodology, these phases are continually reevisited  periodically to identify / understand the project's progress and direction 
+   - The "inspect-and-adapt" approach from Agile methodology, greatly reduces development costs and time to market the product because here teams can develop the software while gathering changes in requirements
+   - The stakeholders can provide feedback to the development team to improve the quality of the product
+   - Agile development does save lot of resource which could have spent on something not needed anymore 
+
+
 - Microservice
 - Cloud Computing Platforms
 - Containers
