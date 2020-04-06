@@ -194,8 +194,11 @@ Cloud Native is about How applications are created and deployed, NOT WHERE
 
    -------------------------------------------------------------------------------------------
 
-## Cloud Computing Platforms
 ## Containers
+<p align="center">
+  <img  src="https://raw.githubusercontent.com/etechlearner/cloud-native-mobile-web-computing/master/images/docker.png">
+</p>
+
    - A Container is a runtime instance of an image
    - An Image is an executable package that includes everything needed to run an application
         - the code,
@@ -215,6 +218,10 @@ Cloud Native is about How applications are created and deployed, NOT WHERE
    - **Stackable** : You can stack services vertically and on-the-fly. 
 
 ## Orchestration
+<p align="center">
+  <img  src="https://raw.githubusercontent.com/etechlearner/cloud-native-mobile-web-computing/master/images/kubernetes.jpg">
+</p>
+
     Deploying your application with all dependencies into a container is jus the first step
     Every ease comes with it's own challenges, making ap containerized solves the deployment problems you had previously, but new challenges includes
    - Scaling app based on the current load of you system isn't that easy. You need to 
