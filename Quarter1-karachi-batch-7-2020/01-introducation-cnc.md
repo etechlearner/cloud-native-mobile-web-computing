@@ -194,9 +194,37 @@ Cloud Native is about How applications are created and deployed, NOT WHERE
 
    -------------------------------------------------------------------------------------------
 
+## Cloud Computing Platforms
+## Containers
+   - A Container is a runtime instance of an image
+   - An Image is an executable package that includes everything needed to run an application
+        - the code,
+        - a runtime,
+        - Libraries,
+        - enviroment variables,
+        - and configuration files,
+   - Making a container using image for any application is called Containerization 
+   - Docker is widely use to containerize your application 
 
-- Cloud Computing Platforms
-- Containers
-- Orchestration
+    Containerization is iccreasingly popular because containers are:
+   - **Flexible** : Even ther most complez applications can be containerized
+   - **Lightweight** : Containers leveage and share the host kernel.
+   - **Interchnageable** : You can deploy updates and upgrades on-the-fly.
+   -  **Portable** : You can build locally, deploy to the cloud, and run anywhere.
+   - **Scalable** : You can increase and automatically distribute cantainer replicas.
+   - **Stackable** : You can stack services vertically and on-the-fly. 
 
+## Orchestration
+    Deploying your application with all dependencies into a container is jus the first step
+    Every ease comes with it's own challenges, making ap containerized solves the deployment problems you had previously, but new challenges includes
+   - Scaling app based on the current load of you system isn't that easy. You need to 
+   - monitor your system 
+   - trigger the startup or shutdown of container,
+   - make sure that all required configration parameters are in piace,
+   - balance the load between the avtive application instances 
+   - share authentication secrets between your containers
+   - Doing all of that manually requires a lot of effort and is too slow to react to unexpected changes in system load 
+   - You need to have the right tools in place that automatically do all of this 
+   - This is what the different orchestration solutions are build for 
+   - One of the most popular on is **kubernetes**
 
